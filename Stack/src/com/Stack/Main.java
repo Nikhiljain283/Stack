@@ -14,6 +14,13 @@ public class Main {
 		stack.push(node2);
 		stack.push(node3);
 		stack.printStack();
+		
+		stack.peek();
+		
+		stack.pop();
+		stack.printStack();
+		stack.pop();
+		stack.pop();
 	}
 
 }
